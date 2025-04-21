@@ -48,3 +48,16 @@ Ranking de ruas por total de eleitores:
 2º - Rua das Palmeiras (6 eleitores)
 3º - Rua dos Pinheiros (3 eleitores)
 ```
+
+---
+
+## 📁 Exemplos de código
+
+Os arquivos com a modelagem e a lógica de ranking por número de eleitores estão em:
+
+📂 `codigo/Questao3_RankingRuas/`
+
+- `Modelos/Casa.cs`
+- `Modelos/Rua.cs`
+- `Servicos/RankingService.cs`
+- `Apresentacao/Program.cs`

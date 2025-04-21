@@ -101,3 +101,17 @@ public double CalcularCustoTotalEstoque(IEnumerable<IItemEstoque> itens)
     return itens.Sum(item => item.CalcularCusto());
 }
 ```
+
+---
+
+## 📁 Exemplos de código
+
+Os exemplos completos com a modelagem de domínio, interface, produtos e serviço de precificação estão no diretório:
+
+📂 `codigo/Questao2_Precificacao/`
+
+- `Modelos/ProdutoAlimenticio.cs`
+- `Modelos/ProdutoNaoPerecivel.cs`
+- `Interfaces/IItemEstoque.cs`
+- `Servicos/ServicoPrecificacao.cs`
+- `Apresentacao/Program.cs`

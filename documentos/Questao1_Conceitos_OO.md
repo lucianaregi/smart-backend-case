@@ -96,3 +96,11 @@ public class Usuario
     }
 }
 ```
+
+---
+
+## 📁 Exemplo de código
+
+O código com exemplos de uso de interface, classe abstrata, herança e delegação está neste arquivo:
+
+📄 `exemplos/Questao1/Resposta.cs`

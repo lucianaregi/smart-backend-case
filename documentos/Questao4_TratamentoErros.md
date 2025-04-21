@@ -74,3 +74,15 @@ if (cpf.Length != 11 || TodosDigitosIguais(cpf) || !DigitosVerificadoresValidos(
 - Uma exceção específica (`CpfInvalidoException`)
 - Um serviço (`ValidadorCpfService`) que valida estrutura e dígitos
 - Um `Program.cs` que mostra como tratar erros e continuar rodando
+
+---
+
+## 📁 Exemplos de código
+
+Os arquivos com a exceção personalizada, a lógica de validação de CPF e o tratamento com `try/catch` estão em:
+
+📂 `codigo/Questao4_TratamentoErros/`
+
+- `Excecoes/CpfInvalidoException.cs`
+- `Servicos/ValidadorCpfService.cs`
+- `Apresentacao/Program.cs`
