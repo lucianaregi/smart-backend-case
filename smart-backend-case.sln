@@ -25,6 +25,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Questao3.Tests", "tests\Que
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Questao4.Tests", "tests\Questao4.Tests\Questao4.Tests.csproj", "{78024324-FB11-4782-8CB9-10AC658AA00E}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Questao5.Tests", "tests\Questao5.Tests\Questao5.Tests.csproj", "{DEE01FD2-477E-40A9-8DBC-1EC1CAE91CDC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{78024324-FB11-4782-8CB9-10AC658AA00E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78024324-FB11-4782-8CB9-10AC658AA00E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78024324-FB11-4782-8CB9-10AC658AA00E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEE01FD2-477E-40A9-8DBC-1EC1CAE91CDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEE01FD2-477E-40A9-8DBC-1EC1CAE91CDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEE01FD2-477E-40A9-8DBC-1EC1CAE91CDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEE01FD2-477E-40A9-8DBC-1EC1CAE91CDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
