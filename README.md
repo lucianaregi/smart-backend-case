@@ -25,7 +25,7 @@ SmartBackendCase/
 │
 ├── documentos/              ← Explicações teóricas e complementares
 │   ├── Questao1_Conceitos_OO.md
-|	├── Questao2_Precificacao.md
+│   ├── Questao2_Precificacao.md
 │   ├── Questao3_RankingRuas.md
 │   ├── Questao4_TratamentoErros.md
 │   ├── Questao5_Concorrencia.md
@@ -37,7 +37,8 @@ SmartBackendCase/
 └── tests/                   ← Testes automatizados com xUnit
     ├── Questao2.Tests/
     ├── Questao3.Tests/
-    └── Questao4.Tests/
+    ├── Questao4.Tests/
+    └── Questao5.Tests/
 ```
 
 ---
@@ -84,6 +85,7 @@ SmartBackendCase/
 - `lock` para controle concorrente
 - Interface `IContaDao` para desacoplamento
 - Código: [`codigo/Questao5_Transacoes/`](codigo/Questao5_Transacoes/)
+- Testes: [`tests/Questao5.Tests/`](tests/Questao5.Tests/)
 
 ---
 
@@ -100,7 +102,7 @@ SmartBackendCase/
 Todas as questões de código possuem **projetos de teste separados com xUnit**, demonstrando:
 
 - Sucesso e falha proposital
-- Validações e regras
+- Validações e regras reais
 - Testes simples e focados
 
 ---
