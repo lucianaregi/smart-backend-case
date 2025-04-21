@@ -61,3 +61,11 @@ Os arquivos com a modelagem e a lógica de ranking por número de eleitores est�
 - `Modelos/Rua.cs`
 - `Servicos/RankingService.cs`
 - `Apresentacao/Program.cs`
+
+---
+
+## 🧪 Testes automatizados
+
+O código da Questão 3 está coberto por testes com xUnit.
+
+📁 Local dos testes: [`tests/Questao3.Tests/`](../../tests/Questao3.Tests/)

@@ -86,3 +86,11 @@ Os arquivos com a exceção personalizada, a lógica de validação de CPF e o t
 - `Excecoes/CpfInvalidoException.cs`
 - `Servicos/ValidadorCpfService.cs`
 - `Apresentacao/Program.cs`
+
+---
+
+## 🧪 Testes automatizados
+
+O código da Questão 4 está coberto por testes com xUnit.
+
+📁 Local dos testes: [`tests/Questao4.Tests/`](../../tests/Questao4.Tests/)

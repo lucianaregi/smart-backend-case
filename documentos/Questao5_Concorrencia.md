@@ -71,3 +71,9 @@ O exemplo de execução está em:
 | Débito em conta inexistente     | `Exception` com mensagem clara |
 
 ---
+
+## 🧪 Testes automatizados
+
+O código da Questão 5 está coberto por testes com xUnit.
+
+📁 Local dos testes: [`tests/Questao5.Tests/`](../../tests/Questao5.Tests/)
