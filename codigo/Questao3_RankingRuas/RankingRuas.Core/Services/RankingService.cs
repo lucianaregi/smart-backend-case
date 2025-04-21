@@ -2,8 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace RankingRuas.Core.Services
 {
@@ -28,7 +26,8 @@ namespace RankingRuas.Core.Services
             }
 
             return eleitoresPorRua
-                .OrderByDescending(par => par.Value)
+                .OrderByDescending(par => par.Value)     
+                .ThenBy(par => par.Key.Nome)             
                 .Select(par => par.Key)
                 .ToList();
         }
