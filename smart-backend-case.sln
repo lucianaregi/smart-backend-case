@@ -11,6 +11,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Precificacao.Apresentacao",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Precificacao.Core", "codigo\Questao2_Precificacao\Precificacao.Core\Precificacao.Core.csproj", "{33CC03B0-EB6E-4C4A-B769-1A70F2547176}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RankingRuas.Apresentacao", "codigo\Questao3_RankingRuas\RankingRuas.Apresentacao\RankingRuas.Apresentacao.csproj", "{AEB6E568-2610-47A8-BBDD-F59EBEFC390D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RankingRuas.Core", "codigo\Questao3_RankingRuas\RankingRuas.Core\RankingRuas.Core.csproj", "{4971E982-E698-4D8B-B790-F94BE3CFACCD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{33CC03B0-EB6E-4C4A-B769-1A70F2547176}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33CC03B0-EB6E-4C4A-B769-1A70F2547176}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33CC03B0-EB6E-4C4A-B769-1A70F2547176}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEB6E568-2610-47A8-BBDD-F59EBEFC390D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEB6E568-2610-47A8-BBDD-F59EBEFC390D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEB6E568-2610-47A8-BBDD-F59EBEFC390D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEB6E568-2610-47A8-BBDD-F59EBEFC390D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4971E982-E698-4D8B-B790-F94BE3CFACCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4971E982-E698-4D8B-B790-F94BE3CFACCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4971E982-E698-4D8B-B790-F94BE3CFACCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4971E982-E698-4D8B-B790-F94BE3CFACCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
