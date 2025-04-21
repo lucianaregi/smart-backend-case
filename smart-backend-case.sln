@@ -15,6 +15,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RankingRuas.Apresentacao", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RankingRuas.Core", "codigo\Questao3_RankingRuas\RankingRuas.Core\RankingRuas.Core.csproj", "{4971E982-E698-4D8B-B790-F94BE3CFACCD}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TratamentoErros.Apresentacao", "codigo\Questao4_TratamentoErros\TratamentoErros.Apresentacao\TratamentoErros.Apresentacao.csproj", "{53B473EF-BC51-49E2-AF86-CD110A593833}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TratamentoErros.Core", "codigo\Questao4_TratamentoErros\TratamentoErros.Core\TratamentoErros.Core.csproj", "{EC71F4F6-2046-42A6-9E58-6AC5E0A3FC74}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{4971E982-E698-4D8B-B790-F94BE3CFACCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4971E982-E698-4D8B-B790-F94BE3CFACCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4971E982-E698-4D8B-B790-F94BE3CFACCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53B473EF-BC51-49E2-AF86-CD110A593833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53B473EF-BC51-49E2-AF86-CD110A593833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53B473EF-BC51-49E2-AF86-CD110A593833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53B473EF-BC51-49E2-AF86-CD110A593833}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC71F4F6-2046-42A6-9E58-6AC5E0A3FC74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC71F4F6-2046-42A6-9E58-6AC5E0A3FC74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC71F4F6-2046-42A6-9E58-6AC5E0A3FC74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC71F4F6-2046-42A6-9E58-6AC5E0A3FC74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
