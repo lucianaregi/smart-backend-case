@@ -62,14 +62,18 @@ public double CalcularCusto()
 
 ## 📦 ProdutoNaoPerecivel
 
-Mesmo sem validade, ele também implementa a interface e tem um cálculo simplificado:
+Produto que não possui validade, com cálculo mais direto:
 
 ```csharp
 public double CalcularCusto()
 {
-    return CustoAquisicao + VolumeOcupado * 3.0;
+    double custoBase = CustoAquisicao;
+    custoBase += VolumeOcupado * 3.0;
+    return custoBase;
 }
 ```
+
+````
 
 ---
 
@@ -87,7 +91,7 @@ public double CalcularPrecoProdutoNaoPerecivel(ProdutoNaoPerecivel produto)
 {
     return HiperMercado.Hi.FormulaMagica(produto.CalcularCusto(), 0);
 }
-```
+````
 
 ---
 
@@ -104,14 +108,17 @@ public double CalcularCustoTotalEstoque(IEnumerable<IItemEstoque> itens)
 
 ---
 
-## 📁 Exemplos de código
+## 🧪 Testes automatizados (xUnit)
 
-Os exemplos completos com a modelagem de domínio, interface, produtos e serviço de precificação estão no diretório:
+Foram criados testes para verificar:
 
-📂 `codigo/Questao2_Precificacao/`
+- Preço retornado corretamente
+- Simulação de erro proposital (assertions com falha)
 
-- `Modelos/ProdutoAlimenticio.cs`
-- `Modelos/ProdutoNaoPerecivel.cs`
-- `Interfaces/IItemEstoque.cs`
-- `Servicos/ServicoPrecificacao.cs`
-- `Apresentacao/Program.cs`
+Local: [`tests/Questao2.Tests/`](../../tests/Questao2.Tests/)
+
+---
+
+## 📁 Código-fonte
+
+- [`codigo/Questao2_Precificacao/`](../../codigo/Questao2_Precificacao/)
